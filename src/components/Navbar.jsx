@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close, resume } from "../assets";
+import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
+
+  const resume = 'https://suhail270.github.io/portfolio/src/assets/resume.pdf';
+
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -17,6 +20,7 @@ const Navbar = () => {
   
     if (isSafari) {
       window.open(resume, 'Suhail Ahmed - Resume.pdf');
+      
     } else {
       const link = document.createElement("a");
       link.href = resume;
