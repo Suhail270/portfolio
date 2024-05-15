@@ -4,25 +4,28 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
+    postgresql,
+    mysql,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    python,
+    aws,
     threejs,
+    icode,
+    softlogic,
+    io21,
+    alyousuf,
+    pmTrans,
+    hafilatuna,
+    nlp,
+    rta,
+    aaico,
+    hwu,
+    pytorch,
+    tensorflow,
+    scikit,
   } from "../assets";
   
   export const navLinks = [
@@ -35,6 +38,10 @@ import {
       title: "Work",
     },
     {
+      id: "resume",
+      title: "Download Resume",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -42,24 +49,52 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Machine Learning Engineer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Full-Stack Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Django Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Cross-Functional Team Lead",
       icon: creator,
     },
   ];
   
   const technologies = [
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "TensorFlow",
+      icon: tensorflow,
+    },
+    {
+      name: "PyTorch",
+      icon: pytorch,
+    },
+    {
+      name: "Scikit",
+      icon: scikit,
+    },
+    {
+      name: "AWS",
+      icon: aws,
+    },
+    {
+      name: "PostgreSQL",
+      icon: postgresql,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -73,40 +108,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -116,150 +123,152 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Data & Business Intern",
+      company_name: "iCode Jr.",
+      icon: icode,
+      iconBg: "white",
+      date: "Jan 2022 - Apr 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built and maintained a database for all schools in Dubai, Sharjah and Abu Dhabi.",
+        "Built a database consisting information of all participating schools, teams, and students.",
+        "Co-ordinated with various stakeholders to further spread brand awareness. ",
+        "Played a huge role in orchestrating one of Dubai's biggest inter-school hackathons till date and ensuring its success.",
+      ],
+    },
+
+    {
+      title: "Software Development Intern",
+      company_name: "IO21 (now acquired by EuroTech ME)",
+      icon: io21,
+      iconBg: "black",
+      date: "Jan 2022 - Apr 2022",
+      points: [
+        "Analyzed and reviewed a website as a team, highlighting its flaws and suggesting further features to incorporate into the website.",
+        "Presented the aforementioned review to the CTO as well as our fellow batchmates.",
+        "Noted down further suggestions given, and worked on the website to bring our ideas and changes to life.",
+        "Worked on the front-end using HTML and CSS.",
+        "Worked on the backend using Django, Python, and JavaScript.",
+        "Completed all given hands-on programming assignments or tasks."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Software Engineering Intern",
+      company_name: "Al Yousuf Group",
+      icon: alyousuf,
+      iconBg: "white",
+      date: "Feb 2023 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Started as a full stack developer. Was quickly promoted to a team lead and then, project manager.",
+        "Worked on 5 different projects in total: CRM, Sales forecasting & data visualization, Gamification, Appointment Scheduling, and a Chatbot.",
+        "Managed 3 different teams as project manager and rolled out 3 different projects.",
+        "Automated the company’s lead management workflow by building a CRM app tailored to the company’s needs.",
+        "Regularly drove requirement elicitation meetings and had a good relationship and understanding with all the stakeholders.",
       ],
     },
+
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Solutions Engineering Intern",
+      company_name: "Softlogic",
+      icon: softlogic,
+      iconBg: "white",
+      date: "Jan 2024 - Apr 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Drove initiatives and negotiations with international clients and stakeholders.",
+        "Managed the company’s HealthTech software projects in the Middle East.",
+        "Was a part of the product development and enhancement team.",
+        "Reported directly to the director and CEO of the Middle East and was under his mentorship.",
       ],
     },
   ];
   
-  const testimonials = [
+  const achievements = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      achievement:
+        "Runner's Up - National Competition.",
+      name: "RTA Sustainability Hackathon 2023",
+      company: "RTA - Roads and Transport Authority",
+      image: rta,
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      achievement:
+        "Placed 2nd in the UAE and 5th globally.",
+      name: "AAICO x DDS Hackathon 2024",
+      company: "The Applied Artificial Intelligence Company (AAICO)",
+      image: aaico,
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      achievement:
+        "Deputy Princial's Award for Academic Excellence.",
+      name: "University - Bachelor's",
+      company: "Heriot-Watt University",
+      image: hwu,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Unsupervised Domain Adaptation using Transformers",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "For unsupervised domain adaptation (UDA), I used the vision transformer's (ViT) patch mix module to create an intermediate domain by learning a probability distribution through game-theoretical models. In this framework, I implemented the following models for a comparative study: SwinTransformer V1 & V2, Data-efficient Image Transformer (DeiT), ViT, Hierarchical Visual Transformer (HVT). These models were implemented using PyTorch, with some pre-trained on ImageNet.",
       tags: [
         {
-          name: "react",
+          name: "Machine Learning",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Computer Vision",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "PyTorch",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: pmTrans,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Smart Routing for Student Commute",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "I developed a hybrid K-Means and DBSCAN model to cluster students based on their location and route them to the nearest bus stop, clusters of students were mapped to clusters of schools. I also developed a routing algorithm that would route the buses to the schools based on the clusters of students. My team also developed a cross-platform mobile application using Flutter and an admin panel using NextJS.",
       tags: [
         {
-          name: "react",
+          name: "Machine Learning",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Data Science",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Full-Stack Development",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: hafilatuna,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Sentiment and Formality Analysis on Multilingual Surveys",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "I created a Streamlit application to extract information from a PDF containing survey responses. I processed the PDF to extract the names, age, continent of origin, and their response in different languages. I then used the deep translator API to translate non-English languages and leveraged a Bert-base and RoBERTa-base model subsequently to perform sentiment and formality analysis.",
       tags: [
         {
-          name: "nextjs",
+          name: "Large Language Models (LLM)",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Natural Language Processing (NLP)",
           color: "green-text-gradient",
-        },
+        },  
         {
-          name: "css",
+          name: "Machine Learning",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: nlp,
       source_code_link: "https://github.com/",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, achievements, projects };
