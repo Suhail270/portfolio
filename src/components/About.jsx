@@ -43,7 +43,7 @@ const About = () => {
 
       <motion.p variants = {fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
 
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      I'm a graduate with a passion for artificial intelligence and computer science, specializing in Python and machine learning. I excel at turning data into insights and love crafting intelligent solutions to complex problems. With a knack for algorithms and a flair for coding, I bring a blend of expertise and enthusiasm to every project. Let's code the future together!
 
       </motion.p>
 
