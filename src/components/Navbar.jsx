@@ -7,8 +7,6 @@ import { logo, menu, close, resume } from "../assets";
 
 const Navbar = () => {
 
-  const resumeURL = process.env.PUBLIC_URL + "assets/resume-ja12BeeH.pdf";
-
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -19,7 +17,7 @@ const Navbar = () => {
                      navigator.userAgent.indexOf('FxiOS') === -1;
   
     if (isSafari) {
-      window.open(resumeURL, 'Suhail Ahmed - Resume.pdf');
+      window.open(resume, 'Suhail Ahmed - Resume.pdf');
       
     } else {
       const link = document.createElement("a");
