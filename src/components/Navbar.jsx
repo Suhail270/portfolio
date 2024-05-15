@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, resume } from "../assets";
 
 const Navbar = () => {
 
-  const resume = 'https://suhail270.github.io/portfolio/src/assets/resume.pdf';
+  const resumeURL = process.env.PUBLIC_URL + "assets/resume-ja12BeeH.pdf";
 
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -19,7 +19,7 @@ const Navbar = () => {
                      navigator.userAgent.indexOf('FxiOS') === -1;
   
     if (isSafari) {
-      window.open(resume, 'Suhail Ahmed - Resume.pdf');
+      window.open(resumeURL, 'Suhail Ahmed - Resume.pdf');
       
     } else {
       const link = document.createElement("a");
