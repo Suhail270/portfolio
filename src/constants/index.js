@@ -198,7 +198,7 @@ import {
     },
     {
       achievement:
-        "Deputy Princial's Award for Academic Excellence.",
+        "Deputy Principal's Award for Academic Excellence.",
       name: "University - Bachelor's",
       company: "Heriot-Watt University",
       image: hwu,
