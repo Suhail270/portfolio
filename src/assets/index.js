@@ -40,6 +40,8 @@ import nlp from "./nlp.png";
 import rta from "./rta.png";
 import aaico from "./aaico.png";
 import hwu from "./hwu.png";
+import compass from "./compass.png";
+import dds from "./dds.png";
 
 import resume from "./resume.pdf";
 
@@ -84,4 +86,6 @@ export {
   pytorch,
   tensorflow,
   scikit,
+  compass,
+  dds,
 };

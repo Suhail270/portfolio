@@ -26,6 +26,8 @@ import {
     pytorch,
     tensorflow,
     scikit,
+    compass,
+    dds,
   } from "../assets";
   
   export const navLinks = [
@@ -184,7 +186,7 @@ import {
   const achievements = [
     {
       achievement:
-        "Runner's Up - National Competition.",
+        "2nd Place - National Competition.",
       name: "RTA Sustainability Hackathon 2023",
       company: "RTA - Roads and Transport Authority",
       image: rta,
@@ -202,6 +204,27 @@ import {
       name: "University - Bachelor's",
       company: "Heriot-Watt University",
       image: hwu,
+    },
+    {
+      achievement:
+        "First Class Honours Degree. GPA: 3.74.",
+      name: "University - Bachelor's",
+      company: "Heriot-Watt University",
+      image: hwu,
+    },
+    {
+      achievement:
+        "2nd Place - National Competition.",
+      name: "Company Hackathon 2024",
+      company: "Compass Circuit: Myco Track (AI)",
+      image: compass,
+    },
+    {
+      achievement:
+        "Winner.",
+      name: "Facial Emotion Recognition Hackathon 2024",
+      company: "Decoding Data Science",
+      image: dds,
     },
   ];
   
