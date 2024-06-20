@@ -43,7 +43,7 @@ import hwu from "./hwu.png";
 import compass from "./compass.png";
 import dds from "./dds.png";
 
-import resume from "./resume.pdf";
+import resume from "./Suhail Ahmed - Resume.pdf";
 
 export {
   logo,

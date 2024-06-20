@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close, resume } from "../assets";
@@ -10,23 +9,9 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
   const downloadResume = () => {
-    const isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
-                     navigator.userAgent &&
-                     navigator.userAgent.indexOf('CriOS') === -1 &&
-                     navigator.userAgent.indexOf('FxiOS') === -1;
-  
-    if (isSafari) {
-      window.open(resume, 'Suhail Ahmed - Resume.pdf');
-      
-    } else {
-      const link = document.createElement("a");
-      link.href = resume;
-      link.setAttribute("download", "Suhail Ahmed - Resume.pdf");
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    }
+    window.open(resume, '_blank');
   };
 
   useEffect(() => {
@@ -80,7 +65,7 @@ const Navbar = () => {
                 if (nav.id === "resume") {
                   downloadResume();
                 }
-            }}
+              }}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
@@ -110,6 +95,9 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(nav.title);
+                    if (nav.id === "resume") {
+                      downloadResume();
+                    }
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
